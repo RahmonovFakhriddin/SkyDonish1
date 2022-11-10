@@ -1,0 +1,458 @@
+:root{
+    --darkpurple: #612b77;
+    --orange: #e94b32;
+    --fz18: 18px;
+    --fz23: 23px;
+}
+
+@media(max-width:1290px){
+    .about-top-items{
+        justify-content: center;
+    }
+    .about-item3 ::after{
+        display: none;
+    }
+}
+
+@media(max-width:1080px){
+    .library-navigation{
+        display: block;
+    }
+    .library-navigation-right{
+        display: flex;
+        justify-content: center;
+        padding: 15px 5px 5px 5px;
+    }
+    .library-navigation-left ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:1073px){
+    .pay-items{
+        justify-content: center;
+    }
+}
+
+@media(max-width:1062px){
+    .question-direction{
+        justify-content: center;
+    }
+    .question-right{
+        display: none;
+    }
+    .question-btn{
+        text-align: center;
+    }
+}
+
+@media(max-width:1024px){
+    .footer-top-items{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:1010px){
+    .about-item2 ::after{
+        display: none;
+    }
+    .about-bottom-items-top{
+        justify-content: center;
+    }
+}
+
+@media(max-width:932px){
+    .footer-bottom-top{
+        justify-content: center;
+    }
+    .link{
+        padding: 10px 0px;
+    }
+    .icons{
+        margin: 10px 0px;
+    }
+}
+
+@media(max-width:820px){
+    .services-left div p{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .services-right div p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:817px){
+    .library-bottom-direction{
+        display: block;
+    }
+    .library-bottom-item {
+        padding: 10px 5px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        margin: 10px;
+        align-items: center;
+        overflow: hidden;
+    }
+    .library-bottom-item-class{
+        width: auto;
+        gap: 0px;
+        display: flex;
+    }
+}
+
+@media(max-width:813px){
+    .header-media-menu{
+        display: block;
+    }
+    .menu-header > ul{
+        display: none;
+    }
+    .services-right div p{
+        display: none;
+    }
+    .services-left div p{
+        display: none;
+    }
+    .services-right div span{
+        padding: 0px;
+    }
+    .services-left div span{
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:792px){
+    .fitem-4{
+        padding-right: 150px;
+    }
+    .footer-top-items{
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:768px){
+    .library-navigation-left ul{
+        width: calc(100% - 5px);
+    }
+    .education-title{
+        font-size: 18px;
+    }
+    .education-subtitle{
+        font-size: 14px;
+    }
+    .education-btn button{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:760px){
+    .modal-register {
+        width: 700px;
+    }
+}
+
+@media(max-width:742px){
+    .link{
+        display: grid;
+        gap: 10px;
+    }
+}
+
+@media(max-width:740px){
+    .about-item1 ::after{
+        display: none;
+    }
+    .about-item3 ::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        height: 60px;
+        width: 1.5px;
+        background-color: #000;
+        bottom: 15px;
+    }
+}
+
+@media(max-width:700px){
+    .modal-register {
+        width: 640px;
+    }
+}
+
+@media(max-width:667px){
+    .education-subtitle {
+        font-size: 12px;
+        width: 200px;
+    }
+}
+
+@media(max-width:643px){
+    .modal-register {
+        width: 600px;
+    }
+}
+
+@media(max-width:600px){
+    .modal-register {
+        width: 540px;
+    }
+}
+
+@media(max-width:596px){
+    .education-content{
+        justify-content: left;
+    }
+}
+
+@media(max-width:583px){
+    .footer-top-items{
+        justify-content: center;
+    }
+    .fitem-4{
+        padding-right: 0;
+    }
+    .library-right-btn button{
+        font-size: 20px;
+    }
+    .library-left-btn button{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:557px){
+    .library-bottom-item-class a{
+        padding: 10px 5px;
+    }
+}
+
+@media(max-width:540px){
+    .modal-register {
+        width: 480px;
+    }
+}
+
+@media(max-width:506px){
+    .library-bottom-btns{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:491px){
+    .modal-register {
+        position: absolute;
+        top: 50%;
+        padding: 0px 5px;
+        left: 205px;
+        transform: translate(-50%, -50%);
+        height: 400px;
+        width: 410px;
+    }
+    .exit {
+        position: absolute;
+        right: -60px;
+        top: 10px;
+    }
+}
+
+@media(max-width:487px){
+    .modal-register {
+        position: absolute;
+        top: 75%;
+        padding: 0px 5px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .exit {
+        position: absolute;
+        left: 83%;
+    }
+    .login-direction {
+        display: grid;
+        justify-content: center;
+        width: auto;
+        overflow: hidden;
+    }
+    .login-up {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .login-in {
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media(max-width:470px){
+    .box1{
+        padding: 20px;
+    }
+    .question-title h1{
+        font-size: 33px;
+        text-align: center;
+    }
+}
+
+@media(max-width:450px){
+    .library-bottom-item{
+        display: block;
+    }
+    .library-bottom-item-title{
+        justify-content: center;
+    }
+    .library-bottom-item-class{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:445px){
+    .box1 p{
+        width: auto;
+    }
+}
+
+@media(max-width:434px){
+    .convince-subtitle{
+        width: 290px;
+    }
+    .fitem-1, .fitem-2, .fitem-3, .fitem-4{
+        text-align: center;
+    }
+}
+
+@media(max-width:430px){
+    .library-navigation-left ul li a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:426px){
+    .modal-register {
+        position: absolute;
+        padding: 0px 5px;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .login-up{
+        width: 370px;
+    }
+    .login-in{
+        width: 370px;
+    }
+}
+
+@media(max-width:394px){
+    .library-navigation-left ul li a{
+        font-size: 13px;
+    }
+    .library-navigation-left ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media(max-width:391px){
+    .login-direction {
+        display: grid;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .login-up {
+        width: 300px;
+    }
+    .login-in {
+        width: 300px;
+    }        
+}
+
+@media(max-width:376px){
+    .login-up {
+        width: 100%;
+    }
+    .login-in {
+        width: 100%;
+    }
+    .login-direction {
+        display: grid;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .item1{
+        padding: 10px;
+        margin: 10px;
+    }
+    .item2{
+        margin: 10px;
+        padding: 10px;
+    }
+    .item3{
+        padding: 10px;
+        margin: 10px;
+    }
+    .question-btn button{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:358px){
+    .question-title h1{
+        font-size: 26px;
+    }
+    .video-btn button{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:338px){
+    .question-btn button {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:333px){
+    .header{
+        overflow: hidden;
+    }
+    .library-navigation-right form input{
+        width: 250px;
+    }
+}
+
+@media(max-width:320px){
+    .login-up {
+        width: 100%;
+        overflow: hidden;
+    }
+    .login-in {
+        width: 100%;
+        overflow: hidden;
+    }
+    .sky-item-imgs img{
+        width: 150px;
+    }
+    .sky-item-titles{
+        font-size: 14px;
+    }
+    .sky-item-subtitles{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:310px){
+    .question-btn button {
+        font-size: 13px;
+    }
+}
